@@ -1,15 +1,21 @@
 body{
     font-family: 'roboto', sans-serif;
 }
-.header-logo{
-    font-family: 'Raleway';
+/*---------------------------HEADER------------------*/
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-    text-decoration: none;
 }
 .logo-web{
     color: #2196F3;
@@ -26,10 +32,111 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em
-}
-.header-tel{
     color: #757575;
 }
-.header-mail{
+.link-link:hover{
     color: #2196F3;
+    text-stroke
+}
+.link-link:hover:focus{
+    color: #2196F3;
+}
+/*----------------------------------------HERO-----------------------------------*/
+.hero-caption{
+    background-color: #2196F3;
+    /* background - прибрати */
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero-btn{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/*----------------------------------------SKILL--------------------------------*/
+.skill-top-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.skill-second-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*----------------------------------------ABOUT--------------------------------*/
+.about-caption{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: #212121;
+}
+/*----------------------------------------TEAM--------------------------------*/
+.team-caption{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-position{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*----------------------------------------FOOTER--------------------------------*/
+.address{
+    background-color: #212121;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;    
+    letter-spacing: 0.03em;
+}
+.address-inform{
+    color: #FFFFFF;
+}
+.address-mail-link{
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-tel-link{
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 0.6);
 }
