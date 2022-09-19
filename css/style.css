@@ -1,5 +1,7 @@
 :root{
     --accent-color: #2196F3;
+    --top-text-color:#212121;
+    --second-text-color:#757575;
 }
 
 body{
@@ -13,7 +15,7 @@ body{
 .link{
     text-decoration: none;
 }
-.logo{
+.logo-header{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -31,7 +33,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--top-text-color);
 }
 .header-link:hover{
     color: var(--accent-color)
@@ -47,14 +49,14 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;    
-    color: #757575;
+    color: var(--second-text-color);
 }
 .header-link-tel{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-text-color);
 }
 .header-link-mail:hover, 
 .header-link-tel:hover{
@@ -78,6 +80,16 @@ body{
     color: #FFFFFF;
 }
 .hero-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+    
     width: 216px;
     height: 50px;
     left: 692px;
@@ -105,14 +117,13 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--top-text-color);
 }
 .skill-second-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-text-color);
 }
 /*----------------------------------------ABOUT--------------------------------*/
 .about-caption{
@@ -121,18 +132,17 @@ body{
     line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;    
-    color: #212121;
+    color: var(--top-text-color);
 }
 /*----------------------------------------TEAM--------------------------------*/
 .team-caption{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--top-text-color);
 }
 .team-name{
     font-weight: 500;
@@ -140,17 +150,15 @@ body{
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--top-text-color);
 }
 .team-position{
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-text-color);
 }
 /*----------------------------------------PORTFOLIO--------------------------------*/
 .portfolio-btn{
@@ -169,7 +177,7 @@ body{
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--top-text-color);
 }
 .portfolio-btn-text:hover,
 .portfolio-btn-text:focus {
@@ -181,19 +189,28 @@ body{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--top-text-color);
 }
 .portfolio-description{
-font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-text-color);
 }
 /*----------------------------------------FOOTER--------------------------------*/
+.footer-style{
+background-color: #212121;
+}
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 .address{
-    background-color: #212121;
-    /* background прибрати */
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
